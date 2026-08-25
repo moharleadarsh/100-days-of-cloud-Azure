@@ -18,7 +18,11 @@ The Nautilus DevOps team needs to set up a new Virtual Machine (VM) on the Azure
      ```bash
      ssh-keygen -t rsa
      ```
-   - OR
+   - -t means key type.
+   - -b means number of bits.
+   - -f specifies where the key should be saved.
+   - -N specifies the passphrase for the private key.
+   - "" means an empty passphrase.
 
      ```bash
      ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
