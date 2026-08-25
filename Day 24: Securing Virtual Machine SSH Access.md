@@ -18,6 +18,11 @@ The Nautilus DevOps team needs to set up a new Virtual Machine (VM) on the Azure
      ```bash
      ssh-keygen -t rsa
      ```
+   - OR
+
+     ```bash
+     ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
+     ```
 
 ## Create a Virtual Machine
 
