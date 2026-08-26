@@ -49,7 +49,7 @@ az storage blob list \
   --output table
 ```
 
-**List blobs in destination container
+**List blobs in destination container:**
 
 ```sh
 az storage blob list \
