@@ -49,8 +49,9 @@ az storage blob list \
   --output table
 ```
 
+**List blobs in destination container
+
 ```sh
-# List blobs in destination container
 az storage blob list \
   --account-name nautilusst19421 \
   --container-name nautilus-dest-3717 \
